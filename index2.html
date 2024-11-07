@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task #2</title>
+    <link rel="stylesheet" href="./style2.css">
+    <script src="./index2.js"></script>
+</head>
+<body>
+
+<div class="calculator-container">
+
+    <h2>Корявый калькулятор</h2>
+    <input type="number" id="number1" class="input-field" placeholder="Число 1">
+    <input type="number" id="number2" class="input-field" placeholder="Число 2">
+    
+    <select id="operation" class="select-operation">
+        <option value="add">Сложение (+)</option>
+        <option value="subtract">Вычитание (-)</option>
+        <option value="multiply">Умножение (*)</option>
+        <option value="divide">Деление (/)</option>
+    </select>
+    
+    <button type="button" class="calculate-btn" onclick="calculate()">Посчитать</button>
+
+    <div id="result" class="result"></div>
+    <div id="errorMessage" class="error-message"></div>
+    
+</div>
+
+</body>
+</html>
